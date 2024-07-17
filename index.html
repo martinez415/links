@@ -6,11 +6,21 @@
     <meta name="author" content="Melissa Martinez">
     <link href="./CSS/style.css" rel="stylesheet">
     <style>
+
+      * {
+        border: thin red solid;
+      }
+
       body {
         padding-top: 40px;
         padding-bottom: 40px;
       }
       
+      .banner {
+        display: flex;
+        justify-content: center;
+      }
+
       .banner-image {
         width: 128px;
         height: 128px;
@@ -24,59 +34,103 @@
         border-radius: 48px;
         object-fit: cover;
       }
+
+      body {
+        background-color: #004643;
+        display: flex;
+        justify-content: center;
+      }
+
+      .name {
+        color: #fffffe;
+        display: flex;
+        justify-content: center;
+      }
+      
+      .social-icons {
+        display: flex;
+        justify-content: space-around;
+      }
+
+      .social-icons a {
+        color: #fffffe;
+        text-decoration: none;
+      }
+
+      .link {
+        background-color: #f9bc60;
+        display: flex;
+        align-items: center;
+        padding: 5px;
+      }
+
+      .link a {
+        color: #001e1d;
+        text-decoration: none;
+        text-align: center;
+        flex-grow: 1;
+      }
+
+      .items {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        max-width: 640px;
+        flex-grow: 1;
+      }
+
     </style>
   </head>
   <body>
+    <div class="items">
+      <!-- Headshot and name-->
+      <div class="banner">
+        <img class="banner-image" src="./Images/martinezheadshot.jpg" alt="Image of person with short dark hair and clear glasses.">
+      </div>
+      <div class="name">
+        Melissa Martinez
+      </div>
 
-    <!-- Headshot and name-->
-    <div class="banner">
-      <img class="banner-image" src="./Images/martinezheadshot.jpg" alt="Image of person with short dark hair and clear glasses.">
+      <!-- Social media links -->
+      <div class="social-icons">
+        <a href="https://github.com/martinez415" target="_blank">
+          GitHub
+        </a>
+
+        <a href="https://www.linkedin.com/in/melissa-m-222b48294/" target="_blank">
+          LinkedIn
+        </a>
+        <!-- I do not have social media, so for the sake of this exercise I am directing to homepages of this social media sites. -->
+        <a href="https://www.instagram.com/" target="_blank">
+          Instagram
+        </a>
+
+        <a href="https://x.com/" target="_blank">
+          X / Twitter
+        </a>
+      </div>
+
+      <!-- Links -->
+      <div class="link">
+        <img class="thumbnail" src="./Images/Thumbnails/img1.jpg">
+        <a target="_blank" href="https://www.nationalgeographic.com/animals/mammals/facts/orca">National Geographic Facts On Orcas</a>
+      </div>
+
+      <div class="link">
+        <img class="thumbnail" src="./Images/Thumbnails/img2.jpg">
+        <a target="_blank" href="https://whalemuseum.org/pages/issues-affecting-the-orcas">Issues Affecting The Orcas</a>
+      </div>
+
+      <div class="link">
+        <img class="thumbnail" src="./Images/Thumbnails/img3.jpg">
+        <a target="_blank" href="https://www.scientificamerican.com/article/why-has-a-group-of-orcas-suddenly-started-attacking-boats/">Why Has A Group Of Orcas Suddenly Started Attacking Boats?</a>
+      </div>
+
+      <div class="link">
+        <img class="thumbnail" src="./Images/Thumbnails/img4.jpg">
+        <a target="_blank" href="https://www.dmns.org/visit/exhibitions/orcas-our-shared-future/">Denver Museum of Nature and Science Presents Orcas: Our Shared Future</a>
+      </div>
     </div>
-    <div class="name">
-      <h1>Melissa Martinez</h1>
-      <p>Software Development Student | Orca Enthusiast</p>
-    </div>
-
-    <!-- Social media links -->
-    <div class="social-icons">
-      <a href="https://github.com/martinez415" target="_blank">
-        GitHub
-      </a>
-
-      <a href="https://www.linkedin.com/in/melissa-m-222b48294/" target="_blank">
-        LinkedIn
-      </a>
-      <!-- I do not have social media, so for the sake of this exercise I am directing to homepages of this social media sites. -->
-      <a href="https://www.instagram.com/" target="_blank">
-        Instagram
-      </a>
-
-      <a href="https://x.com/" target="_blank">
-        X / Twitter
-      </a>
-    </div>
-
-    <!-- Links -->
-    <div class="link">
-      <img class="thumbnail" src="./Images/Thumbnails/img1.jpg">
-      <a target="_blank" href="https://www.nationalgeographic.com/animals/mammals/facts/orca">National Geographic Facts On Orcas</a>
-    </div>
-
-    <div class="link">
-      <img class="thumbnail" src="./Images/Thumbnails/img2.jpg">
-      <a target="_blank" href="https://whalemuseum.org/pages/issues-affecting-the-orcas">Issues Affecting The Orcas</a>
-    </div>
-
-    <div class="link">
-      <img class="thumbnail" src="./Images/Thumbnails/img3.jpg">
-      <a target="_blank" href="https://www.scientificamerican.com/article/why-has-a-group-of-orcas-suddenly-started-attacking-boats/">Why Has A Group Of Orcas Suddenly Started Attacking Boats?</a>
-    </div>
-
-    <div class="link">
-      <img class="thumbnail" src="./Images/Thumbnails/img4.jpg">
-      <a target="_blank" href="https://www.dmns.org/visit/exhibitions/orcas-our-shared-future/">Denver Museum of Nature and Science Presents Orcas: Our Shared Future</a>
-    </div>
-
   </body>
 </html>
 
