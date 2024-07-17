@@ -5,81 +5,9 @@
     <meta charset="utf-8">
     <meta name="author" content="Melissa Martinez">
     <link href="./CSS/style.css" rel="stylesheet">
-    <style>
-
-      * {
-        border: thin red solid;
-      }
-
-      body {
-        padding-top: 40px;
-        padding-bottom: 40px;
-      }
-      
-      .banner {
-        display: flex;
-        justify-content: center;
-      }
-
-      .banner-image {
-        width: 128px;
-        height: 128px;
-        object-fit: cover;
-        border-radius: 128px;
-      }
-
-      .thumbnail {
-        width: 48px;
-        height: 48px;
-        border-radius: 48px;
-        object-fit: cover;
-      }
-
-      body {
-        background-color: #004643;
-        display: flex;
-        justify-content: center;
-      }
-
-      .name {
-        color: #fffffe;
-        display: flex;
-        justify-content: center;
-      }
-      
-      .social-icons {
-        display: flex;
-        justify-content: space-around;
-      }
-
-      .social-icons a {
-        color: #fffffe;
-        text-decoration: none;
-      }
-
-      .link {
-        background-color: #f9bc60;
-        display: flex;
-        align-items: center;
-        padding: 5px;
-      }
-
-      .link a {
-        color: #001e1d;
-        text-decoration: none;
-        text-align: center;
-        flex-grow: 1;
-      }
-
-      .items {
-        display: flex;
-        flex-direction: column;
-        gap: 30px;
-        max-width: 640px;
-        flex-grow: 1;
-      }
-
-    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
   </head>
   <body>
     <div class="items">
@@ -88,25 +16,28 @@
         <img class="banner-image" src="./Images/martinezheadshot.jpg" alt="Image of person with short dark hair and clear glasses.">
       </div>
       <div class="name">
-        Melissa Martinez
+        <h1>Melissa Martinez</h1>
+      </div>
+      <div class="bio">
+        <p>Full Stack Developer | Student | Orca Enthusiast</p>
       </div>
 
       <!-- Social media links -->
       <div class="social-icons">
         <a href="https://github.com/martinez415" target="_blank">
-          GitHub
+          <img src="./Images/Icons/github.png">
         </a>
 
         <a href="https://www.linkedin.com/in/melissa-m-222b48294/" target="_blank">
-          LinkedIn
+          <img src="./Images/Icons/linkedin.png">
         </a>
         <!-- I do not have social media, so for the sake of this exercise I am directing to homepages of this social media sites. -->
         <a href="https://www.instagram.com/" target="_blank">
-          Instagram
+          <img src="./Images/Icons/instagram.png">
         </a>
-
+        
         <a href="https://x.com/" target="_blank">
-          X / Twitter
+          <img src="./Images/Icons/twitter.png">
         </a>
       </div>
 
