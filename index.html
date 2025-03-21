@@ -1,74 +1,68 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Martinez Link's Page</title>
+    <title>Martinez Link In Bio</title>
     <meta charset="utf-8">
     <meta name="author" content="Melissa Martinez">
     <link href="./CSS/style.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap" rel="stylesheet">
   </head>
+
   <body>
-    <div class="items">
-      <!-- Headshot and name-->
-      <div class="banner">
-        <img class="banner-image" src="./Images/martinezheadshot.jpg" alt="Image of person with short dark hair and clear glasses.">
-      </div>
-      <div class="name">
-        <h1>Melissa Martinez</h1>
-      </div>
-      <div class="bio">
-        <p>Full Stack Developer | Student | Orca Enthusiast</p>
-      </div>
+    <main>
+        <!-- Headshot and name-->
+         <header>
+            <div class="header-item" id="headshot">
+              <img id="headshot-img" src="./Images/martinezheadshot.jpg" alt="Image of person with short dark hair and clear glasses.">
+            </div>
+            <div class="header-item">
+              <h1 id="name">Melissa Martinez</h1>
+            </div>
+            <div class="header-item">
+              <p id="bio">
+                Full Stack Developer | Computer Science Major @ Wilbur Wright College | Orca Facts
+              </p>
+            </div>
+         </header>
+        <!-- Social media links -->
+        <nav>
+          <ul>
+            <li>
+              <a class="nav-link" href="https://github.com/martinez415" target="_blank">
+                <img class="social-icon" src="./Images/Icons/github-icon.png">
+              </a>
+            </li>
+            <li>
+              <a class="nav-link" href="https://www.linkedin.com/in/melissa-m-222b48294/" target="_blank">
+                <img class="social-icon" src="./Images/Icons/linkedin-icon.png">
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <!-- Links -->
+         <section class="links-container">
+          <div class="link-item">
+            <img class="thumbnail" src="./Images/Thumbnails/img1.jpg">
+            <a target="_blank" href="https://www.nationalgeographic.com/animals/mammals/facts/orca">National Geographic Facts On Orcas</a>
+          </div>
 
-      <!-- Social media links -->
-      <div class="social-icons">
-        <a href="https://github.com/martinez415" target="_blank">
-          <img src="./Images/Icons/github.png">
-        </a>
+          <div class="link-item">
+            <img class="thumbnail" src="./Images/Thumbnails/img2.jpg">
+            <a target="_blank" href="https://whalemuseum.org/pages/issues-affecting-the-orcas">Issues Affecting The Orcas</a>
+          </div>
 
-        <a href="https://www.linkedin.com/in/melissa-m-222b48294/" target="_blank">
-          <img src="./Images/Icons/linkedin.png">
-        </a>
-        <!-- I do not have social media, so for the sake of this exercise I am directing to homepages of this social media sites. -->
-        <a href="https://www.instagram.com/" target="_blank">
-          <img src="./Images/Icons/instagram.png">
-        </a>
-        
-        <a href="https://x.com/" target="_blank">
-          <img src="./Images/Icons/twitter.png">
-        </a>
-      </div>
+          <div class="link-item">
+            <img class="thumbnail" src="./Images/Thumbnails/img3.jpg">
+            <a target="_blank" href="https://www.scientificamerican.com/article/why-has-a-group-of-orcas-suddenly-started-attacking-boats/">Why Has A Group Of Orcas Suddenly Started Attacking Boats?</a>
+          </div>
 
-      <!-- Links -->
-      <div class="link">
-        <img class="thumbnail" src="./Images/Thumbnails/img1.jpg">
-        <a target="_blank" href="https://www.nationalgeographic.com/animals/mammals/facts/orca">National Geographic Facts On Orcas</a>
-      </div>
-
-      <div class="link">
-        <img class="thumbnail" src="./Images/Thumbnails/img2.jpg">
-        <a target="_blank" href="https://whalemuseum.org/pages/issues-affecting-the-orcas">Issues Affecting The Orcas</a>
-      </div>
-
-      <div class="link">
-        <img class="thumbnail" src="./Images/Thumbnails/img3.jpg">
-        <a target="_blank" href="https://www.scientificamerican.com/article/why-has-a-group-of-orcas-suddenly-started-attacking-boats/">Why Has A Group Of Orcas Suddenly Started Attacking Boats?</a>
-      </div>
-
-      <div class="link">
-        <img class="thumbnail" src="./Images/Thumbnails/img4.jpg">
-        <a target="_blank" href="https://www.dmns.org/visit/exhibitions/orcas-our-shared-future/">Denver Museum of Nature and Science Presents Orcas: Our Shared Future</a>
-      </div>
-    </div>
+          <div class="link-item">
+            <img class="thumbnail" src="./Images/Thumbnails/img4.jpg">
+            <a target="_blank" href="https://www.dmns.org/visit/exhibitions/orcas-our-shared-future/">Denver Museum of Nature and Science Presents Orcas: Our Shared Future</a>
+          </div>
+        </section>
+    </main>
   </body>
 </html>
-
-<!-- 
-Three Links:
-https://whalemuseum.org/pages/issues-affecting-the-orcas
-https://www.scientificamerican.com/article/why-has-a-group-of-orcas-suddenly-started-attacking-boats/
-https://www.nationalgeographic.com/animals/mammals/facts/orca
-https://www.dmns.org/visit/exhibitions/orcas-our-shared-future/
--->
